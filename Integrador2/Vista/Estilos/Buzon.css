@@ -15,18 +15,20 @@
 }
 
 .contenedor{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 150px;
-    height: fit-content;
+    height: 700px;
     background-color: blanchedalmond;
+    align-items: center;
 }
 
 .contenedor .formulario{
-    width: 300px;
     
-    margin: 0 auto;
-    padding: 10px;
+    width: 300px;
+    margin:0 auto;
+    padding: 20px;
+    
 }
 .contenedor .formulario p{
     font-family: Arial, Helvetica, sans-serif;
@@ -60,4 +62,13 @@
 .field {
     width: 280px;
     padding: 10px;
+}
+.fieldC {
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+}
+.contenedor .imagen img{
+    margin:0 auto;
+    height: 699px;
 }

@@ -13,3 +13,51 @@
     font-size:40px;
     font-weight: bolder;
 }
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 150px;
+    height: fit-content;
+    background-color: blanchedalmond;
+}
+
+.contenedor .formulario{
+    width: 300px;
+    
+    margin: 0 auto;
+    padding: 10px;
+}
+.contenedor .formulario p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(red, 255, blue,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    
+}
+.btn-blue{
+ color:white;
+ background-color: blue;
+ width: 300px;
+}
+
+.btn-blue:hover{
+  background-color: orange;
+}
+
+.btn-blue:active{
+    background-color: yellow;
+
+}
+
+.field {
+    width: 280px;
+    padding: 10px;
+}

@@ -1,0 +1,50 @@
+.grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 50px;
+    }
+    
+    .fb img{
+        height: 20px;
+        padding-right: 10px;  
+    }
+    
+    .fb:hover{
+        color: white;
+        background: black
+    }
+    .logof img{
+        height: 80%;
+        width: 80%;
+        display: flex;
+    }
+    
+    .grupo-1 .box{
+        text-align: left;
+        
+    }
+    .grupo-1 .box h2{
+     color: white;
+     margin-bottom: 25px;
+     font-size: 30px;
+     align-content: center;
+    }
+    
+    .grupo-1 .box li{
+        color: white;
+        margin-bottom: 25px;
+        font-size: 20px;
+        text-align: left;
+        
+       }
+       
+    .grupo-2{
+        background-color: #0a1a2a;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }

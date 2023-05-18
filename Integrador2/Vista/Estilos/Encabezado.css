@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    min-height: 60px;
+    border: black 3px solid;
+    align-items: center;
+    background-color: white;
+    
+}
+
+
+.logo{
+    margin-left: 70px;
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+    
+}
+
+nav{
+    width: 95%;
+    margin: auto;
+    
+    
+    
+}
+nav a{
+    font-weight: 600;
+    font-family: verdana;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    width: 22%;
+    
+    
+
+}
+
+nav a:hover{
+    color: white;
+    background: black
+}
+
+@media (max-width:700px){
+header{
+    flex-direction: column;
+}
+nav a{
+    display: flex;
+    padding: 30px 40%;
+
+    
+}
+}
+
+footer{
+    width: 100%;
+    background-color: #0a0c0d;
+}
